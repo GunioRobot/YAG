@@ -157,6 +157,9 @@ void YAGController::draw() {
 	while(it != m_controls.end())
         (*it++)->draw();
     
+	// draw time
+	gl::drawString( "time: " + toString(m_tRender), Vec2f(5, 5) );
+	
     /*    
     gl::color(YAGController::m_controlBgColor);
     
