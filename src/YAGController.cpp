@@ -39,6 +39,7 @@ int     YAGController::m_handleHeight               = 17;
 int     YAGController::m_timelineWidth              = 700;
 int     YAGController::m_keyframeSize				= 5;
 
+
 YAGController::YAGController() {
 }
 
@@ -115,12 +116,15 @@ bool YAGController::onMouseWheel(ci::app::MouseEvent event) {
 
 
 bool YAGController::onKeyDown(KeyEvent event) {
-    if (!m_isEnabled) return false;	
+//    if (!m_isEnabled) return false;	
     switch(event.getChar()) {
         case ' ' :
             m_isPlaying = !m_isPlaying;
 //            m_timeline->m_dragKeyframe = NULL;                                          // reset drag keyframe
 
+            break;
+		case 'h' :
+            m_isEnabled = !m_isEnabled;
             break;
     }
     
@@ -128,6 +132,9 @@ bool YAGController::onKeyDown(KeyEvent event) {
 }
 
 void YAGController::update() {
+	if(!m_isEnabled)
+		return;
+	
     if (isPlaying()){
         m_tRender += getElapsedSeconds() - m_frameLastTime;             // update tRender
         vector<YAGControl*>::iterator it = m_controls.begin();          // update variables
@@ -141,6 +148,8 @@ void YAGController::update() {
 }
 
 void YAGController::draw() {
+	if(!m_isEnabled)
+		return;
 	
 	gl::enableAlphaBlending();
 

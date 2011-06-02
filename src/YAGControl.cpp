@@ -282,6 +282,7 @@ void YAGControl::updateValues() {
         (*it++)->update(time);
 }
 
+
 string YAGControl::serialize() {
 	string result;
 
