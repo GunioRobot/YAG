@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	10046CBC133A83850035247C /* Resources.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 691}}";
+			sepNavSelRange = "{60, 0}";
+			sepNavVisRange = "{0, 121}";
+		};
+	};
+	10046CC4133A838B0035247C /* YAGSampleApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 1391}}";
+			sepNavSelRange = "{2190, 0}";
+			sepNavVisRange = "{33, 1300}";
+		};
+	};
+	104F808D139798E400BA3B13 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10046CC4133A838B0035247C /* YAGSampleApp.cpp */;
+		name = "YAGSampleApp.cpp: 43";
+		rLen = 0;
+		rLoc = 945;
+		rType = 0;
+		vrLen = 1258;
+		vrLoc = 0;
+	};
+	104F809C13979C1E00BA3B13 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E28A20133CC246002E037F /* YAGController.cpp */;
+		name = "YAGController.cpp: 42";
+		rLen = 0;
+		rLoc = 2028;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 5669;
+	};
+	104F809D13979C1E00BA3B13 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E28A17133CC246002E037F /* YAGControl.h */;
+		name = "YAGControl.h: 28";
+		rLen = 0;
+		rLoc = 412;
+		rType = 0;
+		vrLen = 1508;
+		vrLoc = 266;
+	};
+	104F809E13979C1E00BA3B13 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E28A21133CC246002E037F /* YAGSlider.cpp */;
+		name = "YAGSlider.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1416;
+		vrLoc = 0;
+	};
+	104F809F13979C1E00BA3B13 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E28A1F133CC246002E037F /* YAGControl.cpp */;
+		name = "YAGControl.cpp: 284";
+		rLen = 0;
+		rLoc = 12222;
+		rType = 0;
+		vrLen = 1571;
+		vrLoc = 11115;
+	};
+	104F80A013979C1E00BA3B13 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E28A22133CC246002E037F /* YAGTimeline.cpp */;
+		name = "YAGTimeline.cpp: 142";
+		rLen = 0;
+		rLoc = 4852;
+		rType = 0;
+		vrLen = 1583;
+		vrLoc = 3762;
+	};
+	104F80E91397A47000BA3B13 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10046CC4133A838B0035247C /* YAGSampleApp.cpp */;
+		name = "YAGSampleApp.cpp: 94";
+		rLen = 0;
+		rLoc = 2190;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 0;
+	};
+	107A9152133A83A60002ABCD /* YAGSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = YAGSample;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	107A9174133A83C40002ABCD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	107A9175133A83C40002ABCD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	107A91C2133A8DD20002ABCD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10046CBC133A83850035247C /* Resources.h */;
+		name = "Resources.h: 4";
+		rLen = 0;
+		rLoc = 60;
+		rType = 0;
+		vrLen = 121;
+		vrLoc = 0;
+	};
+	1088E2A6139276D000FBC0BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E28A18133CC246002E037F /* YAGController.h */;
+		name = "YAGController.h: 54";
+		rLen = 19;
+		rLoc = 1328;
+		rType = 0;
+		vrLen = 1945;
+		vrLoc = 568;
+	};
+	10E289D2133CBFFA002E037F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E289D3133CBFFA002E037F /* locale_facets.tcc */;
+		name = "locale_facets.tcc: 2578";
+		rLen = 0;
+		rLoc = 79039;
+		rType = 0;
+		vrLen = 1538;
+		vrLoc = 78244;
+	};
+	10E289D3133CBFFA002E037F /* locale_facets.tcc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = locale_facets.tcc;
+		path = "/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 37427}}";
+			sepNavSelRange = "{79039, 0}";
+			sepNavVisRange = "{78244, 1520}";
+		};
+	};
+	10E28A17133CC246002E037F /* YAGControl.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = YAGControl.h;
+		path = /Users/Q/Code/Cinder/blocks/YAG/blocks/YAG/include/YAGControl.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 884}}";
+			sepNavSelRange = "{412, 0}";
+			sepNavVisRange = "{266, 1508}";
+		};
+	};
+	10E28A18133CC246002E037F /* YAGController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = YAGController.h;
+		path = /Users/Q/Code/Cinder/blocks/YAG/blocks/YAG/include/YAGController.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1617, 1287}}";
+			sepNavSelRange = "{1328, 19}";
+			sepNavVisRange = "{342, 2346}";
+			sepNavWindowFrame = "{{4, 0}, {1676, 1028}}";
+		};
+	};
+	10E28A19133CC246002E037F /* YAGSlider.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = YAGSlider.h;
+		path = /Users/Q/Code/Cinder/blocks/YAG/blocks/YAG/include/YAGSlider.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1055, 949}}";
+			sepNavSelRange = "{2102, 0}";
+			sepNavVisRange = "{1601, 626}";
+		};
+	};
+	10E28A1F133CC246002E037F /* YAGControl.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = YAGControl.cpp;
+		path = /Users/Q/Code/Cinder/blocks/YAG/blocks/YAG/src/YAGControl.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 4407}}";
+			sepNavSelRange = "{12222, 0}";
+			sepNavVisRange = "{11115, 1571}";
+		};
+	};
+	10E28A20133CC246002E037F /* YAGController.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = YAGController.cpp;
+		path = /Users/Q/Code/Cinder/blocks/YAG/blocks/YAG/src/YAGController.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 3289}}";
+			sepNavSelRange = "{2028, 0}";
+			sepNavVisRange = "{5669, 1228}";
+		};
+	};
+	10E28A21133CC246002E037F /* YAGSlider.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = YAGSlider.cpp;
+		path = /Users/Q/Code/Cinder/blocks/YAG/blocks/YAG/src/YAGSlider.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 2470}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1416}";
+		};
+	};
+	10E28A22133CC246002E037F /* YAGTimeline.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = YAGTimeline.cpp;
+		path = /Users/Q/Code/Cinder/blocks/YAG/blocks/YAG/src/YAGTimeline.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 2964}}";
+			sepNavSelRange = "{4852, 0}";
+			sepNavVisRange = "{3762, 1583}";
+		};
+	};
+	10E28B3E133D025F002E037F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E28A19133CC246002E037F /* YAGSlider.h */;
+		name = "YAGSlider.h: 24";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 1840;
+		vrLoc = 387;
+	};
+	10E8F7C71397A4D600F010F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10E289D3133CBFFA002E037F /* locale_facets.tcc */;
+		name = "locale_facets.tcc: 2578";
+		rLen = 0;
+		rLoc = 79039;
+		rType = 0;
+		vrLen = 1520;
+		vrLoc = 78244;
+	};
+	10E8F7C81397A4D600F010F1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 10046CC4133A838B0035247C /* YAGSampleApp.cpp */;
+	};
+	10E8F7C91397A4D600F010F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10046CC4133A838B0035247C /* YAGSampleApp.cpp */;
+		name = "YAGSampleApp.cpp: 94";
+		rLen = 0;
+		rLoc = 2190;
+		rType = 0;
+		vrLen = 1300;
+		vrLoc = 33;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 107A9152133A83A60002ABCD /* YAGSample */;
+		activeTarget = 8D1107260486CEB800E47090 /* YAGSample */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* YAGSample */,
+		);
+		codeSenseManager = 107A9175133A83C40002ABCD /* Code sense */;
+		executables = (
+			107A9152133A83A60002ABCD /* YAGSample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1050,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1162,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 328705165;
+			PBXWorkspaceStateSaveDate = 328705165;
+		};
+		perUserProjectItems = {
+			104F808D139798E400BA3B13 = 104F808D139798E400BA3B13 /* PBXTextBookmark */;
+			104F809C13979C1E00BA3B13 = 104F809C13979C1E00BA3B13 /* PBXTextBookmark */;
+			104F809D13979C1E00BA3B13 = 104F809D13979C1E00BA3B13 /* PBXTextBookmark */;
+			104F809E13979C1E00BA3B13 = 104F809E13979C1E00BA3B13 /* PBXTextBookmark */;
+			104F809F13979C1E00BA3B13 = 104F809F13979C1E00BA3B13 /* PBXTextBookmark */;
+			104F80A013979C1E00BA3B13 = 104F80A013979C1E00BA3B13 /* PBXTextBookmark */;
+			104F80E91397A47000BA3B13 = 104F80E91397A47000BA3B13 /* PBXTextBookmark */;
+			107A91C2133A8DD20002ABCD = 107A91C2133A8DD20002ABCD /* PBXTextBookmark */;
+			1088E2A6139276D000FBC0BB = 1088E2A6139276D000FBC0BB /* PBXTextBookmark */;
+			10E289D2133CBFFA002E037F = 10E289D2133CBFFA002E037F /* PBXTextBookmark */;
+			10E28B3E133D025F002E037F = 10E28B3E133D025F002E037F /* PBXTextBookmark */;
+			10E8F7C71397A4D600F010F1 /* PBXTextBookmark */ = 10E8F7C71397A4D600F010F1 /* PBXTextBookmark */;
+			10E8F7C81397A4D600F010F1 /* PBXBookmark */ = 10E8F7C81397A4D600F010F1 /* PBXBookmark */;
+			10E8F7C91397A4D600F010F1 /* PBXTextBookmark */ = 10E8F7C91397A4D600F010F1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 107A9174133A83C40002ABCD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* YAGSample */ = {
+		activeExec = 0;
+		executables = (
+			107A9152133A83A60002ABCD /* YAGSample */,
+		);
+	};
+}
