@@ -152,7 +152,9 @@ void YAGController::draw() {
 		return;
 	
 	gl::enableAlphaBlending();
-
+	gl::pushMatrices();
+	
+	gl::setMatricesWindow( getWindowSize() );
     vector<YAGControl*>::iterator it = m_controls.begin();	
 	while(it != m_controls.end())
         (*it++)->draw();
@@ -184,6 +186,7 @@ void YAGController::draw() {
                    Vec2f(m_stopButtonArea.x1 + 16, m_stopButtonArea.y1 + 11), 
                    YAGController::m_fontColor, YAGController::m_textFont);
     */
+	gl::popMatrices();
     gl::disableAlphaBlending();
 	gl::color(ColorA(1,1,1,1));	
 }

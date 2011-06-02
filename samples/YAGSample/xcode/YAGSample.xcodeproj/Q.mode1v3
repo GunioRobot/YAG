@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -268,6 +266,8 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>107A918F133A84330002ABCD</string>
 								<string>10E8F6B51397A49C00F010F1</string>
+								<string>10E8F7051397A49C00F010F1</string>
+								<string>10E8F7561397A49D00F010F1</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -275,8 +275,10 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>11</integer>
 									<integer>9</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -311,12 +313,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>YAGSampleApp.cpp</string>
+								<string>YAGController.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,16 +328,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>YAGSampleApp.cpp</string>
+										<string>YAGController.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>10E8F7C91397A4D600F010F1</string>
+										<string>10E8F7E41397B4C000F010F1</string>
 										<key>history</key>
 										<array>
 											<string>107A91C2133A8DD20002ABCD</string>
 											<string>10E8F7C71397A4D600F010F1</string>
-											<string>10E8F7C81397A4D600F010F1</string>
+											<string>10E8F7DF1397B4C000F010F1</string>
+											<string>10E8F7E01397B4C000F010F1</string>
+											<string>10E8F7E11397B4C000F010F1</string>
+											<string>10E8F7E21397B4C000F010F1</string>
+											<string>10E8F7E31397B4C000F010F1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -531,7 +539,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>10E8F7D41397A4D600F010F1</string>
 		<string>10E8F7D51397A4D600F010F1</string>
 		<string>10E8F7D61397A4D600F010F1</string>
 		<string>1C78EAAD065D492600B07095</string>
