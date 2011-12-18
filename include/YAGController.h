@@ -22,16 +22,16 @@ public:
     YAGController();
     YAGController(ci::app::App* app);
     ~YAGController();
-    
+
 	void	init(ci::app::App* app);
-    
+
     void    update();
     void    draw();
-    
+
     void    enable() { m_isEnabled = true; };
     void    disable() { m_isEnabled = false; };
     bool    isEnabled() { return m_isEnabled; };
-        
+
     bool	onMouseDown(ci::app::MouseEvent event);
 	bool	onMouseUp(ci::app::MouseEvent event);
 	bool	onMouseDrag(ci::app::MouseEvent event);
@@ -39,18 +39,18 @@ public:
     bool	onKeyDown(ci::app::KeyEvent event);
 
     void    addControl(YAGControl *control);
-    
-    bool    isPlaying() { return m_isPlaying; }; 
-    
+
+    bool    isPlaying() { return m_isPlaying; };
+
     int     getTimelineStepWidth() { return m_timelineStepWidth; };             // the step width in pixels
     int     getTimelineBeatWidth() { return m_timelineStepWidth * 4; };         // the beat witdh in pixels
-    
+
     double  tRender() { return m_tRender; }
     void    shiftTimeline(double offset);
-    
+
 	void	save(std::string fileName);
-	void	load(std::string fileName);	
-		
+	void	load(std::string fileName);
+
     static ci::ColorA   m_controlBoxBgColor;
     static ci::ColorA   m_controlBgColor;
     static ci::ColorA   m_controlBorderColor;
@@ -75,25 +75,25 @@ public:
     static int          m_timelineWidth;
     static int          m_keyframeSize;
 
-private:    
+private:
     bool            m_isEnabled;
-    
+
     YAGControl*     m_selectedControl;
-    
+
     ci::CallbackId  m_cbMouseDown;
     ci::CallbackId	m_cbMouseUp;
     ci::CallbackId  m_cbMouseDrag;
     ci::CallbackId  m_cbMouseWheel;
     ci::CallbackId  m_cbKeyDown;
-    
+
     ci::Vec2f       m_position;
-    
+
     std::vector<YAGControl*> m_controls;
-    
+
     bool    m_isPlaying;
     double  m_frameLastTime;
     double  m_tRender;
     int     m_timelineStepWidth;
-    
+
 };
 

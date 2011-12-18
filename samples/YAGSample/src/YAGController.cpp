@@ -50,11 +50,11 @@ YAGController::YAGController(App* app) {
 void YAGController::init(App* app) {
     m_selectedControl   = NULL;
     m_cbMouseDown       = app->registerMouseDown( this, &YAGController::onMouseDown );
-    m_cbMouseUp         = app->registerMouseUp( this, &YAGController::onMouseUp );	
+    m_cbMouseUp         = app->registerMouseUp( this, &YAGController::onMouseUp );
     m_cbMouseDrag       = app->registerMouseDrag( this, &YAGController::onMouseDrag );
     m_cbMouseWheel      = app->registerMouseWheel( this, &YAGController::onMouseWheel );
     m_cbKeyDown         = app->registerKeyDown( this, &YAGController::onKeyDown );
-    
+
     m_isPlaying         = false;
     m_isEnabled         = true;
     m_frameLastTime     = 0;
@@ -66,7 +66,7 @@ void YAGController::init(App* app) {
 bool YAGController::onMouseDown(ci::app::MouseEvent event) {
     if (!m_isEnabled) return false;
 
-    vector<YAGControl*>::iterator it = m_controls.begin();	
+    vector<YAGControl*>::iterator it = m_controls.begin();
 	while(it != m_controls.end()) {
         YAGControl *control = *it++;
 		if (control->onMouseDown(event)) {
@@ -90,7 +90,7 @@ bool YAGController::onMouseUp(ci::app::MouseEvent event) {
 
 
 bool YAGController::onMouseDrag(ci::app::MouseEvent event) {
-    if (!m_isEnabled) return false;	
+    if (!m_isEnabled) return false;
 
 	if (m_selectedControl) {
 		m_selectedControl->onMouseDrag(event);
@@ -111,7 +111,7 @@ bool YAGController::onMouseWheel(ci::app::MouseEvent event) {
 
 
 bool YAGController::onKeyDown(KeyEvent event) {
-    if (!m_isEnabled) return false;	
+    if (!m_isEnabled) return false;
     switch(event.getChar()) {
         case ' ' :
             m_isPlaying = !m_isPlaying;
@@ -119,7 +119,7 @@ bool YAGController::onKeyDown(KeyEvent event) {
 
             break;
     }
-    
+
     return false;
 }
 
@@ -129,52 +129,52 @@ void YAGController::update() {
         vector<YAGControl*>::iterator it = m_controls.begin();          // update variables
         while(it != m_controls.end())
             (*it++)->updateValues();
-    }    
-    
+    }
+
 
     m_frameLastTime = getElapsedSeconds();
-    
+
 }
 
 void YAGController::draw() {
     gl::setMatricesWindow(getWindowSize());
-	gl::disableDepthRead();	
-	gl::disableDepthWrite();		
+	gl::disableDepthRead();
+	gl::disableDepthWrite();
 	gl::enableAlphaBlending();
-    
-    vector<YAGControl*>::iterator it = m_controls.begin();	
+
+    vector<YAGControl*>::iterator it = m_controls.begin();
 	while(it != m_controls.end())
         (*it++)->draw();
-    
-    
+
+
     gl::color(YAGController::m_controlBgColor);
-    
+
     Vec2f buttonSize(55,25);
     Rectf m_playButtonArea(0, 0, buttonSize.x, buttonSize.y);
     Rectf m_stopButtonArea(m_playButtonArea.x2 + 1, 0, m_playButtonArea.x2 + 1 + buttonSize.x, buttonSize.y);
     Rectf m_tRenderArea(m_stopButtonArea.x2 + 1, 0, m_stopButtonArea.x2 + 1 + 90, buttonSize.y);
-                           
+
     gl::drawSolidRect(m_playButtonArea);
     gl::drawSolidRect(m_stopButtonArea);
     gl::drawSolidRect(m_tRenderArea);
-    
-    gl::drawString(toString(m_tRender), 
+
+    gl::drawString(toString(m_tRender),
                    Vec2f(m_tRenderArea.x1 + 5, m_tRenderArea.y1 + 11),
                    YAGController::m_fontColor, YAGController::m_textFont);
-    
-    gl::drawString("PLAY", 
-                   Vec2f(m_playButtonArea.x1 + 16, m_playButtonArea.y1 + 11), 
+
+    gl::drawString("PLAY",
+                   Vec2f(m_playButtonArea.x1 + 16, m_playButtonArea.y1 + 11),
                    YAGController::m_fontColor, YAGController::m_textFont);
 
-    gl::drawString("STOP", 
-                   Vec2f(m_stopButtonArea.x1 + 16, m_stopButtonArea.y1 + 11), 
+    gl::drawString("STOP",
+                   Vec2f(m_stopButtonArea.x1 + 16, m_stopButtonArea.y1 + 11),
                    YAGController::m_fontColor, YAGController::m_textFont);
 
-    
+
     gl::disableAlphaBlending();
 	gl::enableDepthRead();
 	gl::enableDepthWrite();
-	gl::color(ColorA(1,1,1,1));	
+	gl::color(ColorA(1,1,1,1));
 }
 
 
